@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Name: Prionty Sarker\n");
+     printf("ID: 260031\n");
+     
+    int a, b, c, Largest;
+    printf("Enter a, b, c:\n");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    if(a>=b && a>=c){
+        Largest=a;
+    }else if(b>=a && b>=c){
+        Largest=b;
+    }else{
+        Largest=c;
+    }
+    
+    printf("The Largest number is %d",Largest);
+    
+
+    return 0;
+}
