@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Name: Prionty Sarker\n");
+     printf("ID: 260031\n");
+     
+    double x=3.2, Result;
+    
+    Result=(3.0*x*x)+(5.0*x*x)+6.0;
+    printf("The result of the polynomial= %.2lf",Result);
+
+    return 0;
+}
